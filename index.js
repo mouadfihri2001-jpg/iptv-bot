@@ -1,6 +1,6 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode     = require('qrcode-terminal');
-const Anthropic  = require('@anthropic-sdk/sdk');
+const Anthropic  = require('@anthropic-ai/sdk');
 const express    = require('express');
 const http       = require('http');
 const { Server } = require('socket.io');
